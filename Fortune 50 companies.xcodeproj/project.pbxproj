@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14F7ABA2803FFE6004675F3 /* URLSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F7AB92803FFE6004675F3 /* URLSession+Extensions.swift */; };
+		E14F7ABC2804005E004675F3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F7ABB2804005E004675F3 /* ViewModel.swift */; };
+		E14F7ABE28040F1B004675F3 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F7ABD28040F1B004675F3 /* Data+Extensions.swift */; };
+		E14F7AC02804278F004675F3 /* CompanyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F7ABF2804278F004675F3 /* CompanyDetailViewController.swift */; };
+		E1781E052803F21F00C6A06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1781E042803F21F00C6A06A /* AppDelegate.swift */; };
+		E1781E072803F21F00C6A06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1781E062803F21F00C6A06A /* SceneDelegate.swift */; };
+		E1781E092803F21F00C6A06A /* FortuneCompaniesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1781E082803F21F00C6A06A /* FortuneCompaniesListViewController.swift */; };
+		E1781E0C2803F21F00C6A06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1781E0A2803F21F00C6A06A /* Main.storyboard */; };
+		E1781E0E2803F22000C6A06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1781E0D2803F22000C6A06A /* Assets.xcassets */; };
+		E1781E112803F22000C6A06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1781E0F2803F22000C6A06A /* LaunchScreen.storyboard */; };
+		E1781E1B2803F3C900C6A06A /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1781E1A2803F3C900C6A06A /* CompanyTableViewCell.swift */; };
+		E1781E1F2803F41300C6A06A /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1781E1E2803F41300C6A06A /* Company.swift */; };
+		E1781E222803F57800C6A06A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1781E212803F57800C6A06A /* String+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E14F7AB92803FFE6004675F3 /* URLSession+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extensions.swift"; sourceTree = "<group>"; };
+		E14F7ABB2804005E004675F3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E14F7ABD28040F1B004675F3 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		E14F7ABF2804278F004675F3 /* CompanyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailViewController.swift; sourceTree = "<group>"; };
+		E1781E012803F21F00C6A06A /* Fortune 50 companies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortune 50 companies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1781E042803F21F00C6A06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1781E062803F21F00C6A06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1781E082803F21F00C6A06A /* FortuneCompaniesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCompaniesListViewController.swift; sourceTree = "<group>"; };
+		E1781E0B2803F21F00C6A06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1781E0D2803F22000C6A06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1781E102803F22000C6A06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1781E122803F22000C6A06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1781E1A2803F3C900C6A06A /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		E1781E1E2803F41300C6A06A /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		E1781E212803F57800C6A06A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1781DFE2803F21F00C6A06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1781DF82803F21F00C6A06A = {
+			isa = PBXGroup;
+			children = (
+				E1781E032803F21F00C6A06A /* Fortune 50 companies */,
+				E1781E022803F21F00C6A06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1781E022803F21F00C6A06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1781E012803F21F00C6A06A /* Fortune 50 companies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1781E032803F21F00C6A06A /* Fortune 50 companies */ = {
+			isa = PBXGroup;
+			children = (
+				E1781E042803F21F00C6A06A /* AppDelegate.swift */,
+				E1781E062803F21F00C6A06A /* SceneDelegate.swift */,
+				E1781E182803F39500C6A06A /* View */,
+				E1781E1C2803F3E800C6A06A /* View Model */,
+				E1781E1D2803F3F700C6A06A /* Entities */,
+				E1781E232803FFA800C6A06A /* Networking */,
+				E1781E202803F55700C6A06A /* Extensions */,
+				E1781E0A2803F21F00C6A06A /* Main.storyboard */,
+				E1781E0D2803F22000C6A06A /* Assets.xcassets */,
+				E1781E0F2803F22000C6A06A /* LaunchScreen.storyboard */,
+				E1781E122803F22000C6A06A /* Info.plist */,
+			);
+			path = "Fortune 50 companies";
+			sourceTree = "<group>";
+		};
+		E1781E182803F39500C6A06A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1781E082803F21F00C6A06A /* FortuneCompaniesListViewController.swift */,
+				E14F7ABF2804278F004675F3 /* CompanyDetailViewController.swift */,
+				E1781E192803F3A500C6A06A /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1781E192803F3A500C6A06A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1781E1A2803F3C900C6A06A /* CompanyTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E1781E1C2803F3E800C6A06A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				E14F7ABB2804005E004675F3 /* ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		E1781E1D2803F3F700C6A06A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E1781E1E2803F41300C6A06A /* Company.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E1781E202803F55700C6A06A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1781E212803F57800C6A06A /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1781E232803FFA800C6A06A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E14F7AB92803FFE6004675F3 /* URLSession+Extensions.swift */,
+				E14F7ABD28040F1B004675F3 /* Data+Extensions.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1781E002803F21F00C6A06A /* Fortune 50 companies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1781E152803F22000C6A06A /* Build configuration list for PBXNativeTarget "Fortune 50 companies" */;
+			buildPhases = (
+				E1781DFD2803F21F00C6A06A /* Sources */,
+				E1781DFE2803F21F00C6A06A /* Frameworks */,
+				E1781DFF2803F21F00C6A06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fortune 50 companies";
+			productName = "Fortune 50 companies";
+			productReference = E1781E012803F21F00C6A06A /* Fortune 50 companies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1781DF92803F21F00C6A06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E1781E002803F21F00C6A06A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E1781DFC2803F21F00C6A06A /* Build configuration list for PBXProject "Fortune 50 companies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1781DF82803F21F00C6A06A;
+			productRefGroup = E1781E022803F21F00C6A06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1781E002803F21F00C6A06A /* Fortune 50 companies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1781DFF2803F21F00C6A06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1781E112803F22000C6A06A /* LaunchScreen.storyboard in Resources */,
+				E1781E0E2803F22000C6A06A /* Assets.xcassets in Resources */,
+				E1781E0C2803F21F00C6A06A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1781DFD2803F21F00C6A06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1781E092803F21F00C6A06A /* FortuneCompaniesListViewController.swift in Sources */,
+				E14F7AC02804278F004675F3 /* CompanyDetailViewController.swift in Sources */,
+				E1781E052803F21F00C6A06A /* AppDelegate.swift in Sources */,
+				E1781E072803F21F00C6A06A /* SceneDelegate.swift in Sources */,
+				E14F7ABE28040F1B004675F3 /* Data+Extensions.swift in Sources */,
+				E1781E1F2803F41300C6A06A /* Company.swift in Sources */,
+				E1781E222803F57800C6A06A /* String+Extensions.swift in Sources */,
+				E14F7ABA2803FFE6004675F3 /* URLSession+Extensions.swift in Sources */,
+				E14F7ABC2804005E004675F3 /* ViewModel.swift in Sources */,
+				E1781E1B2803F3C900C6A06A /* CompanyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1781E0A2803F21F00C6A06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1781E0B2803F21F00C6A06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1781E0F2803F22000C6A06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1781E102803F22000C6A06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1781E132803F22000C6A06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1781E142803F22000C6A06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1781E162803F22000C6A06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fortune 50 companies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yahoo.Fortune-50-companies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1781E172803F22000C6A06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fortune 50 companies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yahoo.Fortune-50-companies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1781DFC2803F21F00C6A06A /* Build configuration list for PBXProject "Fortune 50 companies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1781E132803F22000C6A06A /* Debug */,
+				E1781E142803F22000C6A06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1781E152803F22000C6A06A /* Build configuration list for PBXNativeTarget "Fortune 50 companies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1781E162803F22000C6A06A /* Debug */,
+				E1781E172803F22000C6A06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1781DF92803F21F00C6A06A /* Project object */;
+}
